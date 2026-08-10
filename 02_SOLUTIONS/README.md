@@ -11,6 +11,8 @@
 | `production_engineering/` | 生産技術 |
 | `sales/` | 営業 |
 
+このほか、特定の1部門に閉じない部門横断ソリューション（例: `action_learning_program/`）は、部門ディレクトリと同列に専用ディレクトリを設け、同じ `specs/` `bpr/`（必要に応じて `scripts/`）構成で管理する。
+
 各部門ディレクトリの構成は共通:
 
 - `specs/` — プロトタイプ仕様書（`SOLUTION_SPEC_TEMPLATE.md` を使用）。対象診断ID、ソリューション概要、評価指標、期間、使用データの範囲、Human-in-the-Loopチェックポイントを明記する。
