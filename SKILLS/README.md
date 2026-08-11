@@ -20,17 +20,18 @@ SKILLS/
 
 ## スキル一覧・ステータス
 
-| フレームワーク名 | 発祥部門 | 対象業務 | 対象ニーズタグ | ステータス |
-|---|---|---|---|---|
-| `qc_story_audit` | manufacturing | 統計的品質管理・QCストーリー監査 | `#継承` `#見逃しリスク分散` `#品質` | 提案 |
-| `weibull_reliability_analysis` | production_engineering | 設備寿命・予兆検知解析 | `#保全負担分散` `#安全責任分散` `#設備` | 提案 |
-| `design_knowledge_structuring` | engineering | 設計ナレッジの構造化 | `#検索性` `#相談待ち解消` `#設計` | 提案 |
-| `spec_quote_automation` | sales × engineering | 仕様選定・見積自動化 | `#リードタイム短縮` `#非付加価値作業削減` `#見積` | 提案 |
-| `bpr_spec_framework` | sales | BPR仕様フレームワーク | `#業務フロー再設計` | 提案 |
+| フレームワーク名 | 発祥部門 | 対象業務 | 対象ニーズタグ | 依存関係 | ステータス |
+|---|---|---|---|---|---|
+| `design_knowledge_structuring` | engineering | 設計ナレッジの構造化 | `#検索性` `#相談待ち解消` `#設計` | なし（**基盤スキル**、`spec_quote_automation` の前提） | 提案 |
+| `spec_quote_automation` | sales × engineering | 仕様選定・見積自動化 | `#リードタイム短縮` `#非付加価値作業削減` `#見積` | `design_knowledge_structuring`（必須） | 提案 |
+| `qc_story_audit` | manufacturing | 統計的品質管理・QCストーリー監査 | `#継承` `#見逃しリスク分散` `#品質` | なし（`design_knowledge_structuring` とスキーマ共有の可能性、要検証） | 提案 |
+| `weibull_reliability_analysis` | production_engineering | 設備寿命・予兆検知解析 | `#保全負担分散` `#安全責任分散` `#設備` | なし | 提案 |
+| `bpr_spec_framework` | sales | BPR仕様フレームワーク | `#業務フロー再設計` | なし | 提案 |
 
 - 各スキルモジュール（`SKILLS/<フレームワーク名>/`）には、`SKILL_TEMPLATE.md` に準拠した `README.md` と、実装（コード／プロンプト／テンプレート等）を格納する。
 - フレームワークが最初に実証された部門は README 内「発祥部門」に記録するが、ディレクトリは部門で分けない。他部門への適用実績は「横展開履歴」に記録する。
 - 「対象ニーズタグ」は `01_DIAGNOSTICS/LATENT_NEEDS_DIAGNOSIS.md` で特定した真の潜在ニーズと対応させる。新規スキル登録時に、解決する潜在ニーズをタグとして付与する（自由記述、既存タグの再利用を優先し乱立させない）。
+- 「依存関係」は `01_DIAGNOSTICS/META_ROOT_CAUSE_SYNTHESIS.md`（RULES.md 2.5 部門横断メタ真因の統合）の分析結果を反映する。依存関係のあるスキルは、実証順序（着手順）にもこの依存を反映する（前提スキルを先に、または同時に実証する）。
 
 ## 自動集積のルール（RULES.md 1.4の運用実装）
 

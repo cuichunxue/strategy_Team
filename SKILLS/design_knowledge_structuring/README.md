@@ -2,7 +2,8 @@
 
 - **発祥部門**: engineering
 - **ステータス**: 提案（未実証。`02_SOLUTIONS/engineering` での実証を経て資産化する）
-- **由来診断・ソリューション**: 未登録（`01_DIAGNOSTICS/engineering` に対象診断が起票され次第、紐付ける）
+- **由来診断・ソリューション**: `01_DIAGNOSTICS/engineering/DIAG-20260810-02_設計調査と相談待ちのリードタイム.md`
+- **依存関係（前提スキル）**: なし。むしろ本スキルが `spec_quote_automation` の前提スキルにあたる（`01_DIAGNOSTICS/META_ROOT_CAUSE_SYNTHESIS.md` 参照）。本スキルが未整備のままだと、`spec_quote_automation` の技術的制約確認ロジックの精度が大きく低下する
 
 ## 1. 目的・対象業務
 

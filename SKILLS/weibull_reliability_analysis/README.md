@@ -2,7 +2,8 @@
 
 - **発祥部門**: production_engineering
 - **ステータス**: 提案（未実証。`02_SOLUTIONS/production_engineering` での実証を経て資産化する）
-- **由来診断・ソリューション**: 未登録（`01_DIAGNOSTICS/production_engineering` に対象診断が起票され次第、紐付ける）
+- **由来診断・ソリューション**: `01_DIAGNOSTICS/production_engineering/DIAG-20260810-03_突発停止と保全計画の属人化.md`
+- **依存関係（前提スキル）**: なし。ただし `01_DIAGNOSTICS/META_ROOT_CAUSE_SYNTHESIS.md` の分析により、本スキルも「専門判断ロジックの構造化」というメタ真因の生産技術版であり、`qc_story_audit` と統計解析の考え方（工程データに基づくFact-Based判断）を共有する
 
 ## 1. 目的・対象業務
 

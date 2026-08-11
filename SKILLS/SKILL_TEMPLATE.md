@@ -3,6 +3,7 @@
 - **発祥部門**: manufacturing / engineering / production_engineering / sales
 - **ステータス**: 提案 / 実証中 / 資産化済み / 複数部門展開済み
 - **由来診断・ソリューション**: `01_DIAGNOSTICS/<部門>/DIAG-YYYYMMDD-連番_...` / `02_SOLUTIONS/<部門>/specs/SOL-YYYYMMDD-連番_...`
+- **依存関係（前提スキル）**: このスキルが機能するために必須の他スキルがあれば記載する（例: 「`design_knowledge_structuring` が未整備の場合、本スキルの精度は大きく低下する」）。ないなら「なし」と明記する。RULES.md 2.5（部門横断メタ真因の統合）で複数部門の真因に依存関係が見つかった場合、ここに反映する。
 
 ## 1. 目的・対象業務
 

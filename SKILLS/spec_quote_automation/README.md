@@ -2,7 +2,8 @@
 
 - **発祥部門**: sales × engineering（部門横断）
 - **ステータス**: 提案（未実証。`02_SOLUTIONS/sales` `02_SOLUTIONS/engineering` での実証を経て資産化する）
-- **由来診断・ソリューション**: 未登録（`01_DIAGNOSTICS/sales` および `01_DIAGNOSTICS/engineering` に対象診断が起票され次第、紐付ける）
+- **由来診断・ソリューション**: `01_DIAGNOSTICS/sales/DIAG-20260810-04_見積仕様確認往復のリードタイム.md`（真因は `01_DIAGNOSTICS/engineering/DIAG-20260810-02` に依存、`01_DIAGNOSTICS/META_ROOT_CAUSE_SYNTHESIS.md` 参照）
+- **依存関係（前提スキル）**: `design_knowledge_structuring`（必須）。技術部門の設計判断ロジックが構造化されていない状態では、本スキルの技術的制約確認は機能しない。**着手順序として、本スキルは `design_knowledge_structuring` と同時、または後追いで実証すること。**
 
 ## 1. 目的・対象業務
 

@@ -2,7 +2,8 @@
 
 - **発祥部門**: manufacturing
 - **ステータス**: 提案（未実証。`02_SOLUTIONS/manufacturing` での実証を経て資産化する）
-- **由来診断・ソリューション**: 未登録（`01_DIAGNOSTICS/manufacturing` に対象診断が起票され次第、紐付ける）
+- **由来診断・ソリューション**: `01_DIAGNOSTICS/manufacturing/DIAG-20260810-01_検査工数と判定基準の属人化.md`
+- **依存関係（前提スキル）**: なし。ただし `01_DIAGNOSTICS/META_ROOT_CAUSE_SYNTHESIS.md` の分析により、本スキルは「専門判断ロジックの構造化」というメタ真因の製造版であり、`design_knowledge_structuring`（技術版）とスキーマ設計を共有できる可能性がある（要検証）
 
 ## 1. 目的・対象業務
 
