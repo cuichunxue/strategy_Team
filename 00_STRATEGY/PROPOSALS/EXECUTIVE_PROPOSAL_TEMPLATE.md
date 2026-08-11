@@ -1,7 +1,7 @@
 # 経営提言書: （テーマ名）
 
 - **提出日**: YYYY-MM-DD
-- **提出者**: マッケンジー（AI Managing Partner）
+- **提出者**: ジョブズ（AI Chief Visionary Officer）
 - **対象**: 改革オーナー
 - **関連診断・ソリューション**: `01_DIAGNOSTICS/...` / `02_SOLUTIONS/...`
 

@@ -3,7 +3,7 @@
 - **部門**: manufacturing / engineering / production_engineering / sales
 - **対象診断ID**: DIAG-YYYYMMDD-連番
 - **ソリューション名**:
-- **担当**: マッケンジー（AI Managing Partner） / 改革オーナー承認
+- **担当**: ジョブズ（AI Chief Visionary Officer） / 改革オーナー承認
 - **期間**: YYYY-MM-DD 〜 YYYY-MM-DD
 
 ## 1. 特定された真因・解くべき本質的課題（診断結果の要約）

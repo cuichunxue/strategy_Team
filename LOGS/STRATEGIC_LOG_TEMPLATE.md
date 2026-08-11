@@ -1,6 +1,6 @@
 # YYYY-MM-DD 件名
 
-- **参加者**: 改革オーナー / マッケンジー（AI Managing Partner）
+- **参加者**: 改革オーナー / ジョブズ（AI Chief Visionary Officer）
 - **関連診断・ソリューション**: （あれば `01_DIAGNOSTICS/...` や `02_SOLUTIONS/...` のファイル名）
 
 ## 論点

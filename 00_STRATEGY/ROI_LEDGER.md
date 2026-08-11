@@ -25,3 +25,4 @@
 |---|---|---|
 | 2026-08-10 | 初版作成 | マッケンジー（AI Managing Partner） |
 | 2026-08-10 | 潜在ニーズ診断に基づく部門別ROI仮説試算（PROP-20260810-01）を登録 | マッケンジー（AI Managing Partner） |
+| 2026-08-10 | 対話相手ペルソナをジョブズ（AI Chief Visionary Officer）に交代 | ジョブズ（AI Chief Visionary Officer） |
