@@ -21,6 +21,7 @@
 | PROP-20260810-01 | 全部門横断 | 実践伴走型教育・SKILLSオンデマンド横展開戦略、展開戦略C（課題ドリブン選抜） | 高 | 部門別試算は `ROI_LEDGER.md` 参照（仮説ベース、要検証） | **改革オーナー承認済み（基本方針・展開戦略C・4部門個別診断の実施、2026-08-10）** |
 | DIAG-20260810-01〜04 | 製造/技術/生産技術/営業 | 各部門の個別診断（真因・定量インパクトの実データ検証） | 高 | 未確定（実データ提供待ち） | 診断ドラフト作成済み・データ提供待ち |
 | META-SYNTH-01 | 技術（優先）/ 営業・製造・生産技術 | 部門横断メタ真因統合分析。技術部門(`design_knowledge_structuring`)が営業部門の真因解消の前提であることが判明 | 最優先候補（技術） | `PROP-20260810-01` 4章参照（波及効果込みの試算は未実施） | `01_DIAGNOSTICS/META_ROOT_CAUSE_SYNTHESIS.md` 作成済み |
+| AI-FAIL-01 | 全社共通（前提条件） | 過去5年間のAI教育投資が定着しなかった要因の全社診断。既存のAction Learning Programの設計思想を実証データで裏付け | 最高（全パイロットの前提） | 教育投資額・活用率とも未計測（要データ） | `01_DIAGNOSTICS/AI_ADOPTION_FAILURE_DIAGNOSIS.md` 作成済み・ソリューション設計は既存のAction Learning Programで対応済み |
 
 ## 優先順位付けの基準
 
@@ -41,3 +42,4 @@
 | 2026-08-10 | 改革オーナーがPROP-20260810-01の基本方針・展開戦略C・4部門個別診断の実施を承認。Phase 1.5に着手 | マッケンジー（AI Managing Partner） |
 | 2026-08-10 | 4部門診断の検証結果を統合分析し、優先順位付け基準に「部門横断の波及効果」を追加。初弾候補を技術部門優先に改訂（エージェント最適化） | マッケンジー（AI Managing Partner） |
 | 2026-08-10 | 対話相手ペルソナをジョブズ（AI Chief Visionary Officer）に交代 | ジョブズ（AI Chief Visionary Officer） |
+| 2026-08-10 | 過去5年間のAI教育定着失敗の全社診断（AI_ADOPTION_FAILURE_DIAGNOSIS.md）を追加し、Action Learning Programの設計思想を実証データで裏付け | ジョブズ（AI Chief Visionary Officer） |
